@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: outfit;
+}
+li a {
+  @apply font-Ovo text-xl;
+}
+li a:hover {
+  @apply dark:text-white/80 text-darkHover/50 ease-in-out duration-500 ;
+}
