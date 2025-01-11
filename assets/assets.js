@@ -82,9 +82,9 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
+        title: 'Prayer project',
         description: 'Web Design',
-        bgImage: '/work-1.png',
+        bgImage: '/المصلي.png',
     },
     {
         title: 'WordPress site ',
