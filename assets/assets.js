@@ -80,28 +80,32 @@ export const assets = {
     right_arrow_bold_dark
 };
 
-export const workData = [
-    {
-        title: 'Prayer project',
-        description: 'Web Design',
-        bgImage: '/المصلي.png',
-    },
-    {
-        title: 'WordPress site ',
-        description: 'WordPress',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
-]
+export const SimpleWorkData = [
+  {
+    title: "Prayer project",
+    description: "Html  CSS  JS",
+    bgImage: "/المصلي.png",
+    link: "https://prayer-time-blond.vercel.app/",
+  },
+  {
+    title: "Fast pizza site ",
+    description: "React js",
+    bgImage: "/fast-pizza.png",
+    link: "https://fast-pizza-pied.vercel.app/",
+  },
+  {
+    title: "Photography site",
+    description: "Web Design",
+    bgImage: "/work-3.png",
+    link: "",
+  },
+  {
+    title: "UI/UX designing",
+    description: "UI/UX Design",
+    bgImage: "/work-4.png",
+    link: "",
+  },
+];
 
 export const serviceData = [
   {
