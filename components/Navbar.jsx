@@ -2,9 +2,11 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { assets } from "@/assets/assets";
+import { useTheme } from "../context/ThemeContext";
 
 import { useRef } from "react";
-function Navbar({ isDark, setIsDark }) {
+function Navbar() {
+  const { isDark, toggleTheme } = useTheme();
   const [isScroll, setIsScroll] = useState(false);
   const sideMenuRef = useRef();
   function openMenu() {
@@ -60,7 +62,7 @@ function Navbar({ isDark, setIsDark }) {
         </ul>
         <div className='flex gap-4 items-center'>
           <button
-            onClick={() => setIsDark(!isDark)}
+            onClick={toggleTheme}
             className='cursor-pointer  '
           >
             {isDark ? (
